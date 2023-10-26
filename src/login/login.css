@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  height: 80vh;
+  width: 60vh;
+
+}
+
+.login-container h2 {
+  margin: 0 0 1px;
+  color: #fff;
+}
+
+.form-group {
+  /* margin: 1px 0; */
+  text-align: left;
+  
+}
+.form-group1{
+  text-align: left;
+  margin-top: -2.5rem;
+
+}
+.form{
+  text-align: left;
+  margin-top: -2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 80%;
+  padding: 5px;
+  margin: 1px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ece6e6;
+}
+
+.login-button {
+  background-color: green;
+  color: #fff;
+  padding: 10px 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+button:hover {
+  background-color: #00b327;
+}
+
+
+.forgot-password {
+  margin-top: 1px;
+}
+
+.forgot-password a {
+  color: green;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+.signup{
+  color: white;
+}
+.signup a{
+  text-decoration: none;
+}
+.signup a:hover{
+  text-decoration: underline;
+}
